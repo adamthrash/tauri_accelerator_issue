@@ -5,11 +5,12 @@
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
-    "start": "sirv public --no-clear -p 3000"
+    "start": "sirv public --no-clear -p 5555"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^17.0.0",
     "@rollup/plugin-node-resolve": "^11.0.0",
+    "@tauri-apps/cli": "^1.0.0-beta.10",
     "autoprefixer": "^10.4.0",
     "mdsvex": "^0.9.8",
     "node-sass": "^6.0.1",
@@ -23,6 +24,7 @@
     "svelte-preprocess": "^4.9.8"
   },
   "dependencies": {
+    "@tauri-apps/api": "^1.0.0-beta.8",
     "sirv-cli": "^1.0.0"
   }
 }
